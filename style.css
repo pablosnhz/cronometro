@@ -33,7 +33,7 @@ body {
     font-size: 60px;
 }
 
-.mainstartBtn {
+.mainStartBtn {
     border-radius: 50%;
     border: 5px solid #092911;
     padding: 9px;
@@ -55,4 +55,26 @@ body {
     background-color: #1c1c1e;
     color: #fff;
     border: none;
+}
+
+
+/* estilo de js para css */
+.timerStarted {
+    background-color: #340e0b;
+    color: #bc3d43;
+}
+
+.timerStartedmain {
+    border: 5px solid #340e0b;
+}
+
+/* lap list */
+.lap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 60px;
+    color: #fff;
 }
